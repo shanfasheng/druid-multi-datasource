@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: @profileActive@
+  application:
+    name: demo
+  aop:
+    proxy-target-class: true
+    auto: true
+server:
+  port: 8080
